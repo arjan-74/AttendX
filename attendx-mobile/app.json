@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "AttendX",
+    "slug": "attendx-mobile",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "attendx",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0f"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.arjan.attendx"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#0a0a0f"
+      },
+      "package": "com.arjan.attendx"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d59dfb5f-3aa8-4c04-82dd-1127e2040234"
+      }
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
